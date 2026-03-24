@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("https://png.pngtree.com/png-clipart/20230821/original/pngtree-abstract-background-medical-analysis-pharmacy-chemical-vector-png-image_10591941.png") 
+              no-repeat center center fixed;
+  background-size: cover;
+  color: #094b41;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #0f6f73;
+}
+
+.logo img {
+  height: 50px;
+  cursor: pointer;
+}
+
+nav a {
+  color: rgb(226, 217, 217);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+}
+.feedback-section h1 {
+  font-family: Georgia, serif;
+  font-size: 2.3rem;
+  color: #004d40;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+.feedback-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.stars {
+  font-size: 25px;
+  color: #ff9800;
+  margin: 5px 0;
+}
+
+.subtitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 23px;
+  color: rgb(10, 72, 111);
+  text-decoration: underline;
+  text-decoration-color: rgb(26, 130, 216);
+  margin-bottom: 30px;
+}
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feedback-box {
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #e0f2f1;
+  border-radius: 10px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px 8px rgba(14, 166, 172, 0.7);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feedback-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 26px rgba(0,0,0,0.25);
+}
+
+.feedback-box h3 {
+  font-size: 23px;
+  color: rgb(26, 119, 96);
+  text-decoration: underline;
+  text-decoration-color: #388bd3;
+  margin: 10px 0;
+}
+
+.feedback-box p.feedback-text {
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(78, 78, 78);
+  margin: 5px 0;
+}
